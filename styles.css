@@ -36,3 +36,7 @@ body {
     color: #fff;
     text-decoration: none;
 }
+nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(201, 71, 71); /* Cambia el color del subrayado */
+}
