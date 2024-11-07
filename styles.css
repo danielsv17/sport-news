@@ -1,82 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
+body {
+    font-family: Arial, sans-serif;
+}
 
-        header {
-            background-color: #46bac2dc;
-            color: white;
-            padding: 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+header {
+    background-color: #46bac2dc;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-        .logo {
-            font-size: 24px;
-            font-weight: bold;
-        }
+main {
+    padding: 1.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-        }
+.main-news {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
 
-        nav ul li {
-            margin-left: 20px;
-        }
+.divider {
+    border-bottom: 1px solid #ddd;
+    margin: 1rem 0;
+}
 
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-size: 18px;
-        }
+.main-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
 
-        nav ul li a:hover {
-            text-decoration: underline;
-        }
+.article {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
 
-        main {
-            padding: 20px;
-        }
-        .logo {
-            
-            display: flex;
-            align-items: center;
-        }
+.article-title {
+    font-size: 1.5rem;
+}
 
-        .logo-imagen {
-            width: 80px; 
-            height: auto; 
-            border-radius: 50%
-        }
-        .imgCucuta {
-            width: 500px; 
-            height: auto; /
-        }
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
 
-        h2 {
-            color: #4CAF50;
-        }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
 
-        article {
-            margin-bottom: 20px;
-            border-bottom: 1px solid #ccc;
-            padding-bottom: 10px;
-        }
+nav ul li {
+    margin-left: 20px;
+}
 
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #55ccd4dc;
-        }
-  /* SECCION CSS PARA PAGINA DE CONTACTAME  */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
 
-  
+nav ul li a:hover {
+    text-decoration: underline;
+}
 
+.logo {
+
+    display: flex;
+    align-items: center;
+}
+
+.logo-imagen {
+    width: 80px;
+    height: auto;
+    border-radius: 50%
+}
+
+.imgCucuta {
+    width: 500px;
+    height: auto;/
+}
+
+.secondary-news {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.secondary-news-content {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.secondary-title {
+    font-size: 1.8rem;
+}
+
+.card-sc-news {
+    border: 1px solid #46bac2dc;
+    border-radius: 7px;
+    padding: 16px 16px 16px 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.card-sc-news:hover{
+    transition: 100ms ease-in-out;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card-sc-news:hover h3{
+    transition: 100ms ease-in-out;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #55ccd4dc;
+}
+
+/* SECCION CSS PARA PAGINA DE CONTACTAME  */
 
 /* Sección de Contacto */
 .contact-section {
